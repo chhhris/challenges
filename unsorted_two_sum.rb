@@ -22,5 +22,3 @@ def unsorted_two_sum(arr, target)
 
   return false
 end
-
-p unsorted_two_sum(arr, target)
