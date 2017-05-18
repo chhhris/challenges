@@ -8,8 +8,6 @@ class Minheap
     @storage = array
   end
 
-  storage = []
-
   def swap(index1, index2)
     temp = storage[index1]
     storage[index1] = storage[index2]
@@ -18,7 +16,7 @@ class Minheap
 
   def size
     storage.length
-  end  
+  end
 
   def peak
     storage[0]
@@ -100,7 +98,6 @@ class Minheap
       even_child_index
     end
   end
-
 
 end
 
